@@ -14,3 +14,23 @@ Each file is in JSON format and contains metadata about a song and the artist of
 ### Log Dataset
 The log files are from a music streaming app based on specified configurations. For example, here are filepaths to two files in this dataset.
 ![image](https://user-images.githubusercontent.com/55506640/120908960-9708f100-c624-11eb-98b3-f13b572e95e1.png)
+{
+  "artist": "Pavement",
+  "auth": "Logged In",
+  "firstName": "Sylvie",
+  "gender": "F",
+  "itemInSession": 0,
+  "lastName": "Cruz",
+  "length": 99.16036,
+  "level": "free",
+  "location": "Washington-Arlington-Alexandria, DC-VA-MD-WV",
+  "method": "PUT",
+  "page": "NextSong",
+  "registration": 1540266185796.0,
+  "sessionId": 345,
+  "song": "Mercy:The Laundromat",
+  "status": 200,
+  "ts": 1541990258796,
+  "userAgent": "\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4\"",
+  "userId": "10"
+}
