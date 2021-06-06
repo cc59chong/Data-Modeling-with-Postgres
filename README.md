@@ -11,3 +11,6 @@ Each file is in JSON format and contains metadata about a song and the artist of
 ![image](https://user-images.githubusercontent.com/55506640/120908817-3dec8d80-c623-11eb-808a-7112a7f9e4ed.png)
 And below is an example of what a single song file, TRAABJL12903CDCF1A.json, looks like.
 ![image](https://user-images.githubusercontent.com/55506640/120908837-6a080e80-c623-11eb-8ded-6a7b10352526.png)
+### Log Dataset
+The log files are from a music streaming app based on specified configurations. For example, here are filepaths to two files in this dataset.
+![image](https://user-images.githubusercontent.com/55506640/120908960-9708f100-c624-11eb-98b3-f13b572e95e1.png)
