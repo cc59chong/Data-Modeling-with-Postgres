@@ -14,11 +14,11 @@ Each file is in JSON format and contains metadata about a song and the artist of
 ### Log Dataset
 The log files are from a music streaming app based on specified configurations. For example, here are filepaths to two files in this dataset.
 ![image](https://user-images.githubusercontent.com/55506640/120908960-9708f100-c624-11eb-98b3-f13b572e95e1.png)
-{
-  "artist": "Pavement",
-  "auth": "Logged In",
-  "firstName": "Sylvie",
-  "gender": "F",
+<br>{
+ <br> "artist": "Pavement",
+ <br> "auth": "Logged In",
+ <br> "firstName": "Sylvie",
+ <br> "gender": "F",
   "itemInSession": 0,
   "lastName": "Cruz",
   "length": 99.16036,
