@@ -57,4 +57,17 @@ log_data/2018/11/2018-11-13-events.json
 ```
 ## Data Modeling
 Use the Star Schema: one fact table consist of the measures associated with each event songplays, and referencing four dimensional tables songs, artists, users and time, each with a primary key that is being referenced from the fact table.
-
+![image](https://github.com/MengyaCao/Data-Modeling-with-Postgres/blob/main/ER_Diagram.png)
+## Project Template
+The data files, the project includes seven files:<br>
+`create_tables.py`: drops and creates your tables. You run this file to reset your tables before each time you run your ETL scripts.<br>
+`etl.ipynb`: reads and processes a single file from song_data and log_data and loads the data into your tables. This notebook contains detailed instructions on the ETL process for each of the tables.<br>
+`etl.py`: reads and processes files from song_data and log_data and loads them into your tables. You can fill this out based on your work in the ETL notebook.<br>
+`README.md`: provides discussion on this project.<br>
+`ER_Diagram.png`: ERD for star schema of this project<br>
+`sql_queries.py`: contains all your sql queries, and is imported into the last three files above.<br>
+`test.ipynb`: displays the first few rows of each table to let us check on the database.
+## How to Run
+Run `create_tables.py` to create the database and tables.<br>
+Run `etl.py` to build ETL pipeline for loading, extracting and inserting the data.<br>
+Run `test.ipynb` to confirm the creation of database and columns.
