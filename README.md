@@ -8,7 +8,17 @@ Build an ETL pipeline using Python, transfers data from JSON files in two local 
 ## Project Datasets
 ### Song Dataset
 Each file is in JSON format and contains metadata about a song and the artist of that song. The files are partitioned by the first three letters of each song's track ID. For example, here are filepaths to two files in this dataset.
-
-song_data/A/B/C/TRABCEI128F424C983.json
-song_data/A/A/B/TRAABJL12903CDCF1A.json
+![image](https://user-images.githubusercontent.com/55506640/120908817-3dec8d80-c623-11eb-808a-7112a7f9e4ed.png)
 And below is an example of what a single song file, TRAABJL12903CDCF1A.json, looks like.
+{
+  "num_songs": 1,
+  "artist_id": "ARJIE2Y1187B994AB7",
+  "artist_latitude": null,
+  "artist_longitude": null,
+  "artist_location": "",
+  "artist_name": "Line Renaud",
+  "song_id": "SOUPIRU12A6D4FA1E1",
+  "title": "Der Kleine Dompfaff",
+  "duration": 152.92036,
+  "year": 0
+}
