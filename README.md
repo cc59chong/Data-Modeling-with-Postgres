@@ -56,7 +56,7 @@ log_data/2018/11/2018-11-13-events.json
 }
 ```
 ## Data Modeling
-Use the Star Schema: one fact table consist of the measures associated with each event songplays, and referencing four dimensional tables songs, artists, users and time, each with a primary key that is being referenced from the fact table.
+Use the Star Schema: one fact table consist of the measures associated with each event songplays, and referencing four dimensional tables songs, artists, users and time, each with a primary key that is being referenced from the fact table.<br>
 ![image](https://github.com/MengyaCao/Data-Modeling-with-Postgres/blob/main/ER_Diagram.png)
 ## Project Template
 The data files, the project includes seven files:<br>
