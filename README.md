@@ -7,7 +7,7 @@ Data modeling with Postgres, define fact and dimension tables for a star schema 
 Building an ETL pipeline using Python, transfers data from JSON files in two local directories into these tables in Postgres using Python and SQL.
 ## Project Datasets
 ### Song Dataset
-Each file is in JSON format and contains metadata about a song and the artist of that song. The files are partitioned by the first three letters of each song's track ID. For example, here are filepaths to two files in this dataset.
+Each file is in JSON format and contains metadata# about a song and the artist of that song. The files are partitioned by the first three letters of each song's track ID. For example, here are filepaths to two files in this dataset. (# Metadata is data that provides information about other data.For example, in a database, metadata could describe the schema (table names, column names, data types)
 ```
 song_data/A/B/C/TRABCEI128F424C983.json
 song_data/A/A/B/TRAABJL12903CDCF1A.json
